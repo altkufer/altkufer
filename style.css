@@ -1,0 +1,213 @@
+
+
+body {
+      background: #ffffff;
+      text-align: center;
+      color: #1c1c1c;
+      margin-top: 50px;
+      margin-bottom: 50px;
+}
+
+.inhalt{
+
+width: 600px;
+margin: auto;
+text-align:left;
+}
+
+iframe{
+      width: 700px;
+      height: 500px;
+      align-self: center;
+      border-width: 0px;
+      border-style: none;
+      border-color: none;
+      border-image: none;
+}
+
+a {
+ 
+      color: inherit;
+      text-align: right;
+      font-family: 'core_sans_n55_medium', sans-serif;
+      font-size: 20px;
+      text-decoration: underline;
+      font-weight: bolder;
+      width: 600px;
+      max-width: 90%;
+      box-sizing: border-box;
+      line-height: 120%;
+      margin-block-start: 10px;
+      margin-block-end: 8px;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+
+}
+.kleina {
+color: inherit;
+text-align: left;
+font-family: 'core_sans_n55_medium', sans-serif;
+font-size: 0.7em;
+text-decoration: underline;
+font-weight: bolder;
+width: 600px;
+max-width: 90%;
+box-sizing: border-box;
+line-height: 120%;
+margin-block-start: 0px;
+margin-block-end: 0px;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+}
+
+.kleino {
+      color: inherit;
+      text-align: left;
+      font-family: 'core_sans_n55_medium', sans-serif;
+      font-size: 0.7em;
+      text-decoration: none;
+      font-weight: bolder;
+      width: 600px;
+      max-width: 90%;
+      box-sizing: border-box;
+      line-height: 120%;
+      margin-block-start: 10px;
+      margin-block-end: 0px;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      }
+
+
+h3 {
+
+      color: inherit;
+      text-align: left;
+      font-family: 'core_sans_n55_medium', sans-serif;
+      font-size: 30px;
+      width: 600px;
+      max-width: 90%;
+      box-sizing: border-box;
+      line-height: 120%;
+      margin-block-start: 0px;
+      margin-block-end: 8px;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+
+}
+
+
+h4 {
+ 
+      color: inherit;
+      text-align: left;
+      font-family: 'core_sans_n55_medium', sans-serif;
+      font-size: 20px;
+      width: 600px;
+      max-width: 90%;
+      box-sizing: border-box;
+      line-height: 120%;
+      margin-block-start: 0px;
+      margin-block-end: 8px;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+}
+
+
+h5 {
+ 
+            color: inherit;
+            text-align: left;
+            font-family: 'core_sans_n55_medium', sans-serif;
+            font-size: 20px;
+            width: 600px;
+            max-width: 90%;
+            box-sizing: border-box;
+            line-height: 120%;
+            margin-block-start: -85px;
+            margin-block-end: 8px;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px
+}
+
+.klein {
+      color: inherit;
+      text-align: right;
+      font-family: 'core_sans_n55_medium', sans-serif;
+      font-size: 0.7em;
+      width: 400px;
+      max-width: 90%;
+      box-sizing: border-box;
+      line-height: 120%;
+      display: block;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+      font-family: "FranziskaWebPro",Georgia,Palatino,"Palatino Linotype",FreeSerif,serif;
+      color: inherit;
+      box-sizing: border-box;
+      width: 500px;
+      max-width: 90%;
+      font-size: 1em;
+      line-height: 1.7em;
+      font-weight: 400;
+      text-align: left;
+      letter-spacing: 0px;
+      display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+
+br {
+      line-height: -35px;
+
+}
+
+.center {
+width: 300px;
+height: auto;
+
+
+}
+
+.centerHUGE {
+      width: 600px;
+      height: auto;
+      max-width: 90%;
+
+      }
+
+.centerHUGEHUGE {
+      margin-block-start: -50px;
+            width: 1000px;
+            height: auto;
+            max-width: 90%;
+            }
+
+
+.flex { 
+width: 100%;
+display: flex; 
+justify-content: center; 
+align-items: center;
+ }
+ .flexy { 
+      width: 85%;
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+       }
+
+
+
+
+
+
+
