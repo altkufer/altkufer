@@ -1,0 +1,162 @@
+﻿<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- PLEASE NO CHANGES BELOW THIS LINE (UNTIL I SAY SO) -->
+  <!-- OK, YOU CAN MAKE CHANGES BELOW THIS LINE AGAIN -->
+
+  <!-- This line removes any default padding and style.
+       You might only need one of these values set. -->
+       <title>ISOTYPE</title>
+       <link rel="stylesheet" href="style1.css" type="text/css">
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.14/p5.js"></script>
+
+
+
+
+
+
+
+
+
+
+<script>
+
+var txt1 = [
+"»Das ist etwa so schwer wie ein großes Auto.«", 
+"»So schwer wie zwei Eisbären oder zwei Konzertflügel.«",
+"»So viel Gewicht bringt auch ein mittleres Kreuzfahrtschiff auf die Waage.«",
+"»Kinder schätzen Gewicht so schwer wie 15 Elefanten.«",
+"»So schwer wie eine Büroklammer.«",
+"»Zum Vergleich: Ein VW Passat wiegt rund 1,4 Tonnen.«",
+"»So schwer wie 60 Elefanten«",
+"»Gerade mal so schwer wie ein Apfel.«",
+"»So schwer wie ein Schulranzen.«",
+"»Das ist ungefähr so viel wie ein kleines Auto oder zehn Elefantenbabys.«",
+"»Die sind nicht schwerer als ein Schokoriegel.«",
+"»Dieses Schwein ist so schwer wie ein Eisbär!«",
+"»44,7 Millionen Tonnen – das entspricht dem Gewicht von neun großen Pyramiden von Gizeh oder 4.500 Eiffeltürmen.«",
+"»Das entspricht dem Gewicht von 750.000 Menschen.«",
+          ];
+
+var index1 = 0;
+let fr = 40;
+
+
+function setup() {
+var canvas = createCanvas(600, 80);
+canvas.parent('txt-div');
+}
+
+
+function draw() {
+background(255, 255,255);
+frameRate(0.3);
+
+fill(0);
+textSize(15);
+text(txt1[index1], 60, 15, 300, 100);
+index1 = index1 + 1;
+if (index1 == txt1.length){
+ index1 = 0; 
+}
+
+}
+</script>
+
+</head>
+
+<div class="inhalt">
+<h3>isotype: Konsum</h3> 
+
+
+</br>
+
+<p>
+    Nach einer Studie der Universität Stuttgart 
+    werden in Deutschland jährlich knapp 11 Millionen 
+    Tonnen Lebensmittel als Abfall weggeworfen. Die meisten 
+    Lebensmittelabfälle gibt es in Privathaushalten: 61 Prozent. 
+    Das sind 6,7 Millionen Tonnen Lebensmittel, die wir jedes Jahr wegwerfen, 
+    von denen zirka 43 Prozent vermeidbar wären.  
+</p>
+</div>
+
+<div class="flexy">
+<img class="center" src="inhalt/masse.gif"
+alt="bewegte schwarze masse">
+</div>
+
+
+<div class="inhalt">
+<p class="klein">Masse mit unbekanntem Maßstab.</p>
+<h4>Was ist das für eine Masse?</h4>
+<p>
+Was ist das für eine Masse unbekannten Ausmaßes und unbekannter Größe? 
+Verstehen wir Zahlen in den Millionen (X 000 000) 
+oder Milliarden (X 000 000 000) überhaupt 
+oder überlesen wir sie und nicken dabei als hätten wir ihr Ausmaß verstanden? Fühlen wir uns 
+persönlich angesprochen? Ich denke nicht, die Masse 
+bleibt anonym. Dabei trägt unser Kauf- und 
+Konsumverhalten und unser Lebensstandard eine ganze Menge zu dem Zustand 
+unserer Erde bei. Und um unser Verhalten und unseren Konsum zu überdenken, 
+müssen wir solche Zahlen verstehen. 
+</div>
+</p>
+</br>
+</br>
+
+
+<div id="txt-div"></div>
+<div class="inhalt">
+<p>
+In den Medien macht man sich Vergleiche zu Nutze. 
+Es werden Referenzpunkte geschaffen mit deren Hilfe 
+man Zahlen darstellen kann. Das Gewicht 
+eines Lasters, die Länge eines Jumbo-Jets, das Gewicht 
+von 10 Baby-Elefanten, die Höhe des Eiffelturmes. 
+Es geht hierbei nicht um Genauigkeit, sondern darum
+dass der Leser und die Leserin ein Gefühl für diese Zahlen bekommt.
+</p>
+</div>
+
+
+</br>
+</br>
+<div class="flex">
+<img class="centerHUGEHUGE" src="inhalt/blauwalelefant.png"
+alt="Blauwal, Elefant als Maßstab.">
+</div>
+
+<div class="inhalt">
+<p class="klein">Blauwal. Elefant als Maßstab.</p>
+<p>
+    Das schwerste Tier unserer Erde, der Blauwal, wiegt Tonnen 
+    und ist ein beliebter Vergleich bei extremen Massen. 
+    Ein erwachsener Blauwal kann bis zu 200 Tonnen wiegen. 
+    So lässt sich folgendes errechnen: Unser Abfallberg aus Lebensmitteln wächst jedes 
+    Jahr um das Gewicht von 33 500 Blauwalen. Diese Anzahl übersteigt 
+    sogar die Population der Blauwale auf der Welt – 
+    Tierschutzorgansationen schätzen den Bestand zwischen 10 000 und 25 000 Tieren.
+</br>
+</br>
+</div>
+<div class="inhalt">
+<p>
+Gewichte, die wir intuitiv verstehen sind Kilogramm und Gramm. 
+An der Käsetheke im Supermarkt bestellen wir 200 Gramm und wissen, 
+wieviel es etwa sein und wie sich dieses Gewicht anfühlen wird. 
+Eine Packung Zucker wiegt 1 Kilogramm. Die bekommt man leicht in den vierten Stock. 
+Anders ist es bei einem Kasten Sprudel – den mit den Glasflaschen. 
+17,2 Kilogramm wiegt so ein Kasten und wir wissen, dass er schon im zweiten 
+Stock in den Armen wehtun wird. Jedes Sekunde schmeißen wir 212 Kilogramm Essen in die Tonne.
+Das ist das Gewicht von mehr als 12 Sprudelkästen jede Sekunde. 
+</br>
+</br>
+<a href="verschwendung.html"; title="weiter">Visualisierungen</a>
+</p>
+</div>
+
+</body>
+</html> 
